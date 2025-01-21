@@ -38,7 +38,7 @@ type CurrentWeatherData struct {
 	Dt         int         `json:"dt"`
 	ID         int         `json:"id"`
 	Name       string      `json:"name"`
-	Cod        int         `json:"cod"`
+	Cod        string      `json:"cod"`
 	Timezone   int         `json:"timezone"`
 	Unit       string
 	Lang       string

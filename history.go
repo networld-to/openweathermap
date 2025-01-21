@@ -57,7 +57,7 @@ type WeatherHistory struct {
 // when receiving data for a historical request.
 type HistoricalWeatherData struct {
 	Message  string           `json:"message"`
-	Cod      int              `json:"cod"`
+	Cod      string           `json:"cod"`
 	CityData int              `json:"city_data"`
 	CalcTime float64          `json:"calctime"`
 	Cnt      int              `json:"cnt"`
